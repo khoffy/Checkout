@@ -12,5 +12,8 @@
 	- messages-21.0.1.jar
 	- tag-expressions-5.0.1.jar 
 
-1. At the root of the project (inside "Checkout" folder), in order to run the project, type:
+4. At the root of the project (inside "Checkout" folder), in order to run the project, type:
 	java -cp "jars/*" io.cucumber.core.cli.Main -p pretty .
+
+5. At the root of the project, let's create a file named "cucumber" ("cucumber.bat" on Windows), then 
+   make the file executable with the following cmd: "sudo chmod u+x cucumber"
