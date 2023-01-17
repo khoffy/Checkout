@@ -1,2 +1,2 @@
-java -cp "jars/*" io.cucumber.core.cli.Main -p pretty features 
+java -cp "jars/*" io.cucumber.core.cli.Main -p pretty --snippets camelcase features 
 

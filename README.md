@@ -5,15 +5,23 @@
 	- ci-environment-9.1.0.jar
 	- cucumber-core-7.11.0.jar
 	- cucumber-gherkin-7.11.0.jar
- 	- cucumber-java-7.11.0.jar
- 	- cucumber-jvm-deps-1.0.6.jar
+	- cucumber-java-7.11.0.jar
+	- cucumber-jvm-deps-1.0.6.jar
 	- cucumber-plugin-7.11.0.jar
 	- gherkin-26.0.3.jar
 	- messages-21.0.1.jar
-	- tag-expressions-5.0.1.jar 
+	- tag-expressions-5.0.1.jar
+	- cucumber-expressions-16.1.1.jar
+	- datatable-7.11.0.jar
+	- docstring-7.11.0.jar
+	- cucumber-gherkin-messages-7.11.0.jar
+ 
 
 4. At the root of the project (inside "Checkout" folder), in order to run the project, type:
 	java -cp "jars/*" io.cucumber.core.cli.Main -p pretty .
 
 5. At the root of the project, let's create a file named "cucumber" ("cucumber.bat" on Windows), then 
    make the file executable with the following cmd: "sudo chmod u+x cucumber"
+
+6. Create a folder "features" from the root of the project. This folder will contain files with
+   with extension ".feature"
