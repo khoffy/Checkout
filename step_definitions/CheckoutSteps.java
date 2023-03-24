@@ -1,7 +1,11 @@
 package step_definitions;
 
-import cucumber.api.java.en.*;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.PendingException;
+
 public class CheckoutSteps {
 
     @Given("^the price of a \"(.*?)\" is (\\d+) c$")
